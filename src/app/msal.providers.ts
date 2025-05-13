@@ -11,13 +11,7 @@ import {
   MsalInterceptorConfiguration,
   MsalService,
 } from '@azure/msal-angular';
-import {
-  BrowserCacheLocation,
-  InteractionType,
-  IPublicClientApplication,
-  LogLevel,
-  PublicClientApplication,
-} from '@azure/msal-browser';
+import { BrowserCacheLocation, InteractionType, IPublicClientApplication, LogLevel, PublicClientApplication } from '@azure/msal-browser';
 import appConfig from '../../public/assets/appConfig.json';
 import { IAppConfig } from './models/app-config.model';
 export function instanceFactory(): IPublicClientApplication {
